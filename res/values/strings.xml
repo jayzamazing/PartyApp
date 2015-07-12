@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PartyApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome">Welcome to the party app. Please select from the list of city and states to find a club near you. </string>
+    <string name="genre_image">Image of Genre</string>
+    <string name="genre_description">genre description</string>
+    <string name="genre_name">Genre Name</string>
+    <string name="club_name">Club Name</string>
+    <string name="party">party image</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="submit">Submit</string>
+</resources>

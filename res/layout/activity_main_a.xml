@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Welcome to the party app. Your guide to local night clubs, pubs, and bars. Please choose from the following selections."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/currentLocationButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="Current location" 
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/historyButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/currentLocationButton"
+        android:layout_marginTop="10dp"
+        android:text="History"
+        android:visibility="gone" 
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/useMapButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/historyButton"
+        android:layout_marginTop="10dp"
+        android:text="Use Map" 
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/specificAddressButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/useMapButton"
+        android:layout_marginTop="10dp"
+        android:text="Use a specific address" 
+        android:background="@drawable/custom_button"/>
+
+</RelativeLayout>
