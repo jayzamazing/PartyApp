@@ -2,7 +2,7 @@
 <p>
 This is an old Android app that I want to play around with. 
 It uses google maps, the google places api, and json to find clubs around the area. 
-Works but not well documented and needs lots of improvement.
+Works but not well documented and needs lots of improvement. To get this project running you are going to need a Google Maps API key and a Google Server API key, listing those keys in the string file located under the res folder. 
 </p>
 <p>
   List of technologies used:
